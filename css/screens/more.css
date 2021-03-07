@@ -1,0 +1,37 @@
+.temporary-space{
+    margin-top: 25px;
+}
+
+.suggestions{
+    border-top:var(--main-boder);
+}
+
+.suggestions__title{
+    margin: 20px 0px;
+}
+
+.suggenstion__icons{
+    display: flex;
+
+}
+.suggestions__icons-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+.suggestions__icon-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    font-size: 25px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

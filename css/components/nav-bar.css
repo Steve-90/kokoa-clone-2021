@@ -1,0 +1,37 @@
+.nav{
+    background-color: #f9f9fa;
+    border-top:1px solid silver;
+    padding: 10px 30px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    box-sizing:border-box;
+
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 50px;
+}
+
+.nav_link{
+    position: relative;
+}
+
+
+.nav_notice{
+    position: absolute;
+    left:20px;
+    bottom:15px;
+}
+
+.nav_noticespot{
+    background-color: tomato;
+    width: 8px;
+    height:8px;
+    border-radius: 4px;
+    display: flex;
+    position: absolute;
+    left: 35px;
+}

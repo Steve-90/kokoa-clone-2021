@@ -1,0 +1,17 @@
+
+.settings__header{
+    display: flex;
+    margin: 20px;
+}
+
+.settings__icon{
+    font-size: 25px;
+}
+
+.settings__header :first-child{
+    margin-right: auto;
+}
+
+.settings__header :last-child{
+    margin-left: auto;
+}

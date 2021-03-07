@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Ubuntu:ital,wght@0,300;0,500;1,300&display=swap');
+@import "reset.css";
+@import "variable.css";
+/* compnents */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/component-header.css";
+
+
+/* screens */
+@import "screens/login.css";
+@import "screens/screens-header.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/icon-row.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat__room.css";
+
+
+body {
+     font-family: 'Ubuntu', sans-serif;
+    color:#2e363e;
+}
+
+
+.chat-screen{
+    padding: 0px var(--horizontal-space);
+}
+
+.main-screen{
+    padding: 0px var(--horizontal-space);
+}
+
