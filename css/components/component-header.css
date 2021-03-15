@@ -2,16 +2,24 @@
 .settings__header{
     display: flex;
     margin: 20px;
+    top:20px;
 }
 
 .settings__icon{
-    font-size: 25px;
+    font-size: 23px;
+    width:33%
 }
 
-.settings__header :first-child{
+.settings__icon:first-child{
     margin-right: auto;
 }
 
-.settings__header :last-child{
+.settings__icon:nth-child(2){
+    text-align: center;
+}
+
+.settings__icon:last-child{
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }

@@ -25,3 +25,8 @@
 .settings__space-top{
     padding-top: 40px;
 }
+
+
+.settings__icon i:last-child{
+    margin-left: 10px;
+}

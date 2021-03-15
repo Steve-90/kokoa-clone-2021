@@ -6,7 +6,7 @@
     <title>chat_room-kokoaclone</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="chat__room-body">
+<body id="chat-screen">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -23,17 +23,38 @@
      </div>
 
     <header class="settings__header">
-     <a href="chat.html">   <div class="settings__icon">
-            <i class="fas fa-chevron-left"></i></div> </a>
+       <div class="settings__icon">
+          <a href="chat.html">
+          <i class="fas fa-chevron-left"></i>
+          </a>
+          </div> 
         <div class="settings__icon">
             Steve J</div>
         <div class="settings__icon">
-          <i class="fas fa-search fa-lg" aria-hidden="true"></i>
+          <i class="fas fa-search fa-lg"></i>
           <i class="fas fa-bars fa-lg"></i>
         </div>
     </header>
 
+<main class="main-screen main-chat">
+    <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+    <div class="message__row">
+        <img src="https://images.chosun.com/resizer/qY4wtIu911sjDA9Gc5w-u8HNVzM=/464x0/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/5TDRCTHOVLTGDLEOP7464FBSEM.jpg" alt="">
+        <div class="message__row-content">
+         <span class="message__author">
+            Steve J</span>
+        <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__text-time">21:27</span>
+         </div>
+        </div>
+    </div>
 
+
+
+
+
+</main>
 
 
 
@@ -42,4 +63,4 @@
 
     <script src="https://kit.fontawesome.com/95fa3ad33a.js" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
